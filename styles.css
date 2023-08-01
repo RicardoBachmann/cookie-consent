@@ -9,7 +9,7 @@ body {
   background-color: whitesmoke;
 }
 
-main {
+.container {
   width: 400px;
   margin: auto;
 }
@@ -59,4 +59,35 @@ li {
 
 img {
   width: 100%;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+  height: 420px;
+  width: 350px;
+  background-color: #212529;
+  color: whitesmoke;
+  box-shadow: 0px 0px 6px 2px #666;
+}
+
+.modal-content {
+  width: 290px;
+  margin: auto;
+}
+
+.modal--button-close {
+  text-align: right;
+  margin: 10px;
+}
+
+.modal--close-btn {
+  font-size: 22px;
+  font-weight: 700;
+  background-color: transparent;
+  color: whitesmoke;
 }
