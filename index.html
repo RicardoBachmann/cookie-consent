@@ -21,10 +21,10 @@
         </h1>
 
         <ul>
-          <li class="li--green">Land a job with a 6 figure salary</li>
-          <li class="li--yellow">Master JavaScript in 3 hours</li>
-          <li class="li--blue">Learn React in 10 minutes</li>
-          <li class="li--pink">Be a NodeJS Dev by lunchtime</li>
+          <li class="li--green">💰 Land a job with a 6 figure salary</li>
+          <li class="li--yellow">💻 Master JavaScript in 3 hours</li>
+          <li class="li--blue">⚛️ Learn React in 10 minutes</li>
+          <li class="li--pink">☕ Be a NodeJS Dev by lunchtime</li>
         </ul>
 
         <h3>
@@ -60,19 +60,28 @@
               type="text"
               name="username"
               placeholder="Enter your full name"
+              aria-label="Full name"
               required
             />
             <input
               type="email"
               name="email"
               placeholder="Enter your email"
+              aria-label="Email adress"
               required
             />
-            <div class="modal--choice-btns">
+            <div class="modal--choice-btns" id="modal-choice-btns">
               <button type="submit" class="modal--btn" type="submit">
                 Accept
               </button>
-              <button type="button" class="modal--btn" type="">Decline</button>
+              <button
+                type="button"
+                class="modal--btn"
+                id="modal-decline-btn"
+                type=""
+              >
+                Decline
+              </button>
             </div>
           </form>
         </div>
