@@ -113,3 +113,7 @@ input {
   padding: 10px 24px;
   cursor: pointer;
 }
+
+.modal-display-name {
+  color: hotpink;
+}
