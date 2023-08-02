@@ -93,6 +93,12 @@ img {
   color: whitesmoke;
 }
 
+.modal--close-btn:disabled {
+  color: whitesmoke;
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
 input {
   margin-top: 10px;
   padding: 10px;
