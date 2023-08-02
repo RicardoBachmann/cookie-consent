@@ -45,9 +45,9 @@
         <div class="modal--button-close">
           <button class="modal--close-btn" id="modal-close-btn">X</button>
         </div>
-        <div class="modal-content">
+        <div class="modal-content" id="modal-content">
           <h2>We ❤️ Your Data</h2>
-          <p class="modal--text">
+          <p class="modal--text" id="modal-text">
             We have a strict policy on tracking and spamming: we'll definitely
             track you, and we'll definitely spam you. To use this site, enter
             your name and email address and accept our ridiculous terms and
@@ -67,8 +67,10 @@
               required
             />
             <div class="modal--choice-btns">
-              <button class="modal--btn" type="submit">Accept</button>
-              <button class="modal--btn" type="">Decline</button>
+              <button type="submit" class="modal--btn" type="submit">
+                Accept
+              </button>
+              <button type="button" class="modal--btn" type="">Decline</button>
             </div>
           </form>
         </div>
